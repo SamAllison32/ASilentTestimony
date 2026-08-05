@@ -1,0 +1,25 @@
+{
+  "FolderOrderSettings":[
+    {"name":"iris","order":1,"path":"folders/iris.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_cannonL","order":7,"path":"objects/obj_cannonL/obj_cannonL.yy",},
+    {"name":"obj_cannonR","order":4,"path":"objects/obj_cannonR/obj_cannonR.yy",},
+    {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"iris_pieces_bg","order":2,"path":"sprites/iris_pieces_bg/iris_pieces_bg.yy",},
+    {"name":"spr_iris_cannonL","order":12,"path":"sprites/spr_iris_cannonL/spr_iris_cannonL.yy",},
+    {"name":"spr_iris_idle0","order":1,"path":"sprites/spr_iris_idle0/spr_iris_idle0.yy",},
+    {"name":"spr_iris_idle1L","order":13,"path":"sprites/spr_iris_idle1L/spr_iris_idle1L.yy",},
+    {"name":"spr_iris_idle1R","order":2,"path":"sprites/spr_iris_idle1R/spr_iris_idle1R.yy",},
+    {"name":"spr_iris_idle2","order":3,"path":"sprites/spr_iris_idle2/spr_iris_idle2.yy",},
+    {"name":"spr_iris_idle3","order":4,"path":"sprites/spr_iris_idle3/spr_iris_idle3.yy",},
+    {"name":"spr_iris_idle4","order":5,"path":"sprites/spr_iris_idle4/spr_iris_idle4.yy",},
+    {"name":"spr_iris_smear_turret","order":7,"path":"sprites/spr_iris_smear_turret/spr_iris_smear_turret.yy",},
+    {"name":"spr_iris_smear_walk","order":6,"path":"sprites/spr_iris_smear_walk/spr_iris_smear_walk.yy",},
+    {"name":"spr_iris_turret","order":8,"path":"sprites/spr_iris_turret/spr_iris_turret.yy",},
+    {"name":"spr_iris_walk1L","order":11,"path":"sprites/spr_iris_walk1L/spr_iris_walk1L.yy",},
+    {"name":"spr_iris_walk1R","order":10,"path":"sprites/spr_iris_walk1R/spr_iris_walk1R.yy",},
+    {"name":"spr_tileset","order":5,"path":"sprites/spr_tileset/spr_tileset.yy",},
+    {"name":"TileSet1","order":6,"path":"tilesets/TileSet1/TileSet1.yy",},
+  ],
+}
