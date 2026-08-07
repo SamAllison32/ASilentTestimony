@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"ASilentTestimony",
-    "path":"ASilentTestimony.yyp",
+    "name":"iris_spr's",
+    "path":"folders/Sprites/iris_spr's.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

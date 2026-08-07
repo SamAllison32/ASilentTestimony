@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"iris",
-    "path":"folders/iris.yy",
+    "name":"turret",
+    "path":"folders/Sprites/iris_spr's/turret.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

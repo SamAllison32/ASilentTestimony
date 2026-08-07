@@ -41,8 +41,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"iris",
-    "path":"folders/iris.yy",
+    "name":"walk",
+    "path":"folders/Sprites/iris_spr's/walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

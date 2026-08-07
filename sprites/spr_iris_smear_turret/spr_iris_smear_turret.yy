@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"iris",
-    "path":"folders/iris.yy",
+    "name":"smear",
+    "path":"folders/Sprites/iris_spr's/smear.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"iris",
-    "path":"folders/iris.yy",
+    "name":"iris_spr's",
+    "path":"folders/Sprites/iris_spr's.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
