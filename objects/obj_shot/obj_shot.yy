@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_temp_shot_red",
-    "path":"sprites/spr_temp_shot_red/spr_temp_shot_red.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

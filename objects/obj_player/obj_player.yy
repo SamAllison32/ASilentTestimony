@@ -40,6 +40,9 @@
     "name":"spr_iris_idle0",
     "path":"sprites/spr_iris_idle0/spr_iris_idle0.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"coll",
+    "path":"sprites/coll/coll.yy",
+  },
   "visible":true,
 }

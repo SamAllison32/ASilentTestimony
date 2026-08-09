@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 1F065E7D
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)image_angle += 2;"
+/// @description Execute Code
+image_angle += 2;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0FEAA807

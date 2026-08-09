@@ -48,3 +48,21 @@ draw_set_alpha(l42A9F649_0 / $ff);
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "global.red"
 draw_text(96, 32,  + string(global.red));
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 03F519A7
+draw_set_colour($FFFFFFFF & $ffffff);
+var l03F519A7_0=($FFFFFFFF >> 24);
+draw_set_alpha(l03F519A7_0 / $ff);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 29DE96EA
+/// @DnDArgument : "x" "32"
+/// @DnDArgument : "y" "96"
+/// @DnDArgument : "xscale" "2"
+/// @DnDArgument : "yscale" "2"
+/// @DnDArgument : "caption" ""state: ""
+/// @DnDArgument : "text" "global.p_state"
+draw_text_transformed(32, 96, string("state: ") + string(global.p_state), 2, 2, 0);
