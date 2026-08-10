@@ -2,17 +2,17 @@
 /// @DnDVersion : 1
 /// @DnDHash : 60914881
 /// @DnDComment : go left (left arrow, left joystick left)
-/// @DnDArgument : "expr" "keyboard_check(vk_left)||(gamepad_axis_value(0,gp_axislh) < -0.2)"
+/// @DnDArgument : "expr" "keyboard_check(vk_left)||keyboard_check(ord("A"))||(gamepad_axis_value(0,gp_axislh) < -0.2)"
 /// @DnDArgument : "var" "controls_input_L"
-controls_input_L = keyboard_check(vk_left)||(gamepad_axis_value(0,gp_axislh) < -0.2);
+controls_input_L = keyboard_check(vk_left)||keyboard_check(ord("A"))||(gamepad_axis_value(0,gp_axislh) < -0.2);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0A7B5796
 /// @DnDComment : go right (right arrow, left joystick right)
-/// @DnDArgument : "expr" "keyboard_check(vk_right)||(gamepad_axis_value(0,gp_axislh) > 0.2)"
+/// @DnDArgument : "expr" "keyboard_check(vk_right)||keyboard_check(ord("D"))||(gamepad_axis_value(0,gp_axislh) > 0.2)"
 /// @DnDArgument : "var" "controls_input_R"
-controls_input_R = keyboard_check(vk_right)||(gamepad_axis_value(0,gp_axislh) > 0.2);
+controls_input_R = keyboard_check(vk_right)||keyboard_check(ord("D"))||(gamepad_axis_value(0,gp_axislh) > 0.2);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -92,7 +92,8 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
 /// @DnDVersion : 1.1
 /// @DnDHash : 4084016E
-var l4084016E_0 = 0;var l4084016E_1 = gp_face4;if(gamepad_is_connected(l4084016E_0) && gamepad_button_check_pressed(l4084016E_0, l4084016E_1)){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDArgument : "btn" "gp_shoulderr"
+var l4084016E_0 = 0;var l4084016E_1 = gp_shoulderr;if(gamepad_is_connected(l4084016E_0) && gamepad_button_check_pressed(l4084016E_0, l4084016E_1)){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 22D16796
 	/// @DnDParent : 4084016E

@@ -1,9 +1,38 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 6C01D81E
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)image_angle += 2;"
-/// @description Execute Code
-image_angle += 2;
+/// @DnDHash : 2184057F
+/// @DnDArgument : "expr" "gamepad_axis_value(0,gp_axisrh)"
+/// @DnDArgument : "var" "rh"
+rh = gamepad_axis_value(0,gp_axisrh);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 682B121C
+/// @DnDArgument : "expr" "gamepad_axis_value(0,gp_axisrv)"
+/// @DnDArgument : "var" "rv"
+rv = gamepad_axis_value(0,gp_axisrv);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5A3639ED
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "rh"
+/// @DnDArgument : "expr_1" "rv"
+/// @DnDArgument : "var" "last_rh"
+/// @DnDArgument : "var_1" "last_rv"
+last_rh = rh;
+last_rv = rv;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 546BEED7
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "mouse_x"
+/// @DnDArgument : "expr_1" "mouse_y"
+/// @DnDArgument : "var" "last_mx"
+/// @DnDArgument : "var_1" "last_my"
+last_mx = mouse_x;
+last_my = mouse_y;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -46,12 +75,65 @@ else{	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 	/// @DnDArgument : "alpha" "0"
 	image_alpha = 0;}
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 74AB645C
-/// @DnDComment : first set of x and y are one point on a line.$(13_10)Second set are the other point. $(13_10)The arm is the line$(13_10)$(13_10)good luck adding the joystick
-/// @DnDArgument : "angle" "point_direction(x,y,mouse_x,mouse_y)"
-image_angle = point_direction(x,y,mouse_x,mouse_y);
+/// @DnDHash : 5F339018
+/// @DnDArgument : "var" "obj_mouse.x || obj_mouse.y"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "obj_mouse.xprevious || obj_mouse.yprevious"
+if(!(obj_mouse.x || obj_mouse.y == obj_mouse.xprevious || obj_mouse.yprevious)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 78F4101C
+	/// @DnDParent : 5F339018
+	/// @DnDArgument : "var" "mode"
+	mode = 0;}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 56F83CDF
+else{	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 329E496A
+	/// @DnDParent : 56F83CDF
+	/// @DnDArgument : "var" "rh || rv"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "last_rh || last_rv"
+	if(!(rh || rv == last_rh || last_rv)){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5CA4AB84
+		/// @DnDParent : 329E496A
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "mode"
+		mode = 1;}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 38A08D0F
+/// @DnDArgument : "var" "mode"
+if(mode == 0){	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDVersion : 1
+	/// @DnDHash : 31B3E1FD
+	/// @DnDComment : first set of x and y are one point on a line.$(13_10)Second set are the other point. $(13_10)The arm is the line$(13_10)$(13_10)good luck adding the joystick
+	/// @DnDParent : 38A08D0F
+	/// @DnDArgument : "angle" "point_direction(x,y,mouse_x,mouse_y)"
+	image_angle = point_direction(x,y,mouse_x,mouse_y);}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 0FF93AFD
+else{	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 458DF8A2
+	/// @DnDParent : 0FF93AFD
+	/// @DnDArgument : "var" "mode"
+	/// @DnDArgument : "value" "1"
+	if(mode == 1){	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+		/// @DnDVersion : 1
+		/// @DnDHash : 28641A34
+		/// @DnDComment : first set of x and y are one point on a line.$(13_10)Second set are the other point. $(13_10)The arm is the line$(13_10)$(13_10)good luck adding the joystick
+		/// @DnDParent : 458DF8A2
+		/// @DnDArgument : "angle" "point_direction(x,y,x+rh,y+rv)"
+		image_angle = point_direction(x,y,x+rh,y+rv);}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

@@ -7,6 +7,20 @@ image_angle += 2;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 50C184AD
+/// @DnDArgument : "expr" "obj_mouse.x || (x+gamepad_axis_value(0,gp_axisrh))"
+/// @DnDArgument : "var" "rh"
+rh = obj_mouse.x || (x+gamepad_axis_value(0,gp_axisrh));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 752B7B8C
+/// @DnDArgument : "expr" "obj_mouse.y || (y+gamepad_axis_value(0,gp_axisrv))"
+/// @DnDArgument : "var" "rv"
+rv = obj_mouse.y || (y+gamepad_axis_value(0,gp_axisrv));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 0FEAA807
 /// @DnDComment : set x to specific point on player
 /// @DnDArgument : "expr" "obj_player.x-74"
@@ -48,7 +62,7 @@ else{	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
-/// @DnDHash : 74AB645C
+/// @DnDHash : 16C11A5E
 /// @DnDComment : first set of x and y are one point on a line.$(13_10)Second set are the other point. $(13_10)The arm is the line$(13_10)$(13_10)good luck adding the joystick
-/// @DnDArgument : "angle" "point_direction(x,y,mouse_x,mouse_y)"
-image_angle = point_direction(x,y,mouse_x,mouse_y);
+/// @DnDArgument : "angle" "point_direction(x,y,rh,rv)"
+image_angle = point_direction(x,y,rh,rv);

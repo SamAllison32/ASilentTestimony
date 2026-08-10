@@ -108,6 +108,19 @@ global.yellow = 0;
 /// @DnDArgument : "var" "p_state"
 global.p_state = 1;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 4E8657D0
+/// @DnDArgument : "var" "global.variable"
+global.variable = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 32B7C1BC
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "var" "global.lives"
+global.lives = 3;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1595D338
