@@ -74,6 +74,7 @@
     {"name":"Sprite45_1","order":18,"path":"sprites/Sprite45_1/Sprite45_1.yy",},
     {"name":"Sprite45","order":16,"path":"sprites/Sprite45/Sprite45.yy",},
     {"name":"Sprite46","order":17,"path":"sprites/Sprite46/Sprite46.yy",},
+    {"name":"Sprite48","order":2,"path":"sprites/Sprite48/Sprite48.yy",},
     {"name":"TileSet1","order":3,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"ts_water","order":8,"path":"tilesets/ts_water/ts_water.yy",},
   ],

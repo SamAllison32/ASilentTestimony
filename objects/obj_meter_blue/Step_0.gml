@@ -8,13 +8,13 @@ meter = global.blue;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 029B9FA6
-/// @DnDArgument : "expr" "camera_get_view_x(0)"
+/// @DnDArgument : "expr" "camera_get_view_x(0)+100"
 /// @DnDArgument : "var" "x"
-x = camera_get_view_x(0);
+x = camera_get_view_x(0)+100;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 529D2D38
-/// @DnDArgument : "expr" "camera_get_view_y(0)"
+/// @DnDArgument : "expr" "camera_get_view_y(0)+100"
 /// @DnDArgument : "var" "y"
-y = camera_get_view_y(0);
+y = camera_get_view_y(0)+100;

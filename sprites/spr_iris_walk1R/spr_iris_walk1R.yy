@@ -36,6 +36,7 @@
     {"$GMImageLayer":"","%Name":"951fb54a-e94b-4984-bfda-1fb5555a7801","blendMode":0,"displayName":"torso","isLocked":false,"name":"951fb54a-e94b-4984-bfda-1fb5555a7801","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6cd3d6e6-643f-400c-b02b-97dd1e194f4b","blendMode":0,"displayName":"legL","isLocked":false,"name":"6cd3d6e6-643f-400c-b02b-97dd1e194f4b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6c4aaa29-46da-4c69-8d52-ea83c4f9d548","blendMode":0,"displayName":"arm","isLocked":false,"name":"6c4aaa29-46da-4c69-8d52-ea83c4f9d548","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c1de5703-d534-4adc-b46d-919915ceee49","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"c1de5703-d534-4adc-b46d-919915ceee49","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_iris_walk1R",
   "nineSlice":null,
