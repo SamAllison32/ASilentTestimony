@@ -1,8 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3D6B44FA
-/// @DnDArgument : "imageind_relative" "1"
-/// @DnDArgument : "spriteind" "Sprite45_1"
-/// @DnDSaveInfo : "spriteind" "Sprite45_1"
-sprite_index = Sprite45_1;
-image_index += 0;
+/// @DnDHash : 3823491C
+/// @DnDArgument : "expr" "15"
+/// @DnDArgument : "var" "image_speed"
+image_speed = 15;

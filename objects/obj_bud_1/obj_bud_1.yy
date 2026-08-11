@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_plant",
+  "%Name":"obj_bud_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_plant",
+  "name":"obj_bud_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_bud",
+    "path":"objects/obj_bud/obj_bud.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite46",
-    "path":"sprites/Sprite46/Sprite46.yy",
+    "name":"Sprite45",
+    "path":"sprites/Sprite45/Sprite45.yy",
   },
   "spriteMaskId":null,
   "visible":true,
