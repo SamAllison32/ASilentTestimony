@@ -23,3 +23,15 @@
 /// @DnDArgument : "dir" "image_angle"
 /// @DnDArgument : "speed" "1"
 motion_add(image_angle, 1);
+
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 4A9CA8B8
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "collision_tilemap"
+var l4A9CA8B8_0 = instance_place(x + 0, y + 0, [collision_tilemap]);if ((l4A9CA8B8_0 > 0)){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 1B4129B9
+	/// @DnDParent : 4A9CA8B8
+	instance_destroy();}

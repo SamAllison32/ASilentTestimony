@@ -63,16 +63,16 @@ move_y = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3977DC4C
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "var" "walk_speed"
-walk_speed = 5;
+walk_speed = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 582C891D
-/// @DnDArgument : "expr" "15"
+/// @DnDArgument : "expr" "30"
 /// @DnDArgument : "var" "jump_speed"
-jump_speed = 15;
+jump_speed = 30;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

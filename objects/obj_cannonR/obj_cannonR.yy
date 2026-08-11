@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_iris_cannonR",
-    "path":"sprites/spr_iris_cannonR/spr_iris_cannonR.yy",
+    "name":"spr_iris_cannon1R",
+    "path":"sprites/spr_iris_cannon1R/spr_iris_cannon1R.yy",
   },
   "spriteMaskId":null,
   "visible":true,

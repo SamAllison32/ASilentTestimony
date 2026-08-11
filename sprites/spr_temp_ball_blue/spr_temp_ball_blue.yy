@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_temp_ball_blue",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":99,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":99,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":100,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"214a7031-4fa4-4557-9d85-5a1e8d8e0e39","blendMode":0,"displayName":"default","isLocked":false,"name":"214a7031-4fa4-4557-9d85-5a1e8d8e0e39","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":100,
 }

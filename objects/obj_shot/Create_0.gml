@@ -34,3 +34,10 @@ if(obj_player.move_x >= 1){	/// @DnDAction : YoYo Games.Instances.Sprite_Rotat
 /// @DnDArgument : "var_1" "move_y"
 move_x = 0;
 move_y = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7C41299E
+/// @DnDArgument : "expr" "layer_tilemap_get_id("Tiles_1")"
+/// @DnDArgument : "var" "collision_tilemap"
+collision_tilemap = layer_tilemap_get_id("Tiles_1");
