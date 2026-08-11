@@ -121,6 +121,12 @@ global.variable = 0;
 /// @DnDArgument : "var" "global.lives"
 global.lives = 3;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 60AF69F2
+/// @DnDArgument : "var" "global.points"
+global.points = 0;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1595D338
