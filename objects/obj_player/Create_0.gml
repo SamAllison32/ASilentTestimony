@@ -133,3 +133,10 @@ global.points = 0;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "cooldown"
 cooldown = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3CE32499
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "fall"
+fall = false;

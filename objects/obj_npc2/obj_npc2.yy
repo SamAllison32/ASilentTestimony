@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc",
-    "path":"sprites/spr_npc/spr_npc.yy",
+    "name":"farmer_spr_1",
+    "path":"sprites/farmer_spr_1/farmer_spr_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

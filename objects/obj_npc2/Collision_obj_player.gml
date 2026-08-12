@@ -6,17 +6,13 @@ event_inherited();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 47E1E88C
-/// @DnDInput : 2
-/// @DnDArgument : "expr" ""Source.""
-/// @DnDArgument : "expr_1" ""hehe""
+/// @DnDArgument : "expr" ""Need help with those hooligans over yonder? Try using red paint to subdue them! Red means fire, you know!""
 /// @DnDArgument : "var" "obj_text.text[0]"
-/// @DnDArgument : "var_1" "obj_text.text[1]"
-obj_text.text[0] = "Source.";
-obj_text.text[1] = "hehe";
+obj_text.text[0] = "Need help with those hooligans over yonder? Try using red paint to subdue them! Red means fire, you know!";
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3636F943
-/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "obj_text.lastpage"
-obj_text.lastpage = 2;
+obj_text.lastpage = 1;

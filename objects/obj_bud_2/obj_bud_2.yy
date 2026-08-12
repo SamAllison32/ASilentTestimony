@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bud_1",
+  "%Name":"obj_bud_2",
   "eventList":[],
   "managed":true,
-  "name":"obj_bud_1",
+  "name":"obj_bud_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite45_2",
-    "path":"sprites/Sprite45_2/Sprite45_2.yy",
+    "name":"Sprite45_3",
+    "path":"sprites/Sprite45_3/Sprite45_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

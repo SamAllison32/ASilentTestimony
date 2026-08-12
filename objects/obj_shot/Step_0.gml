@@ -21,8 +21,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 56909973
 /// @DnDArgument : "dir" "image_angle"
-/// @DnDArgument : "speed" "1"
-motion_add(image_angle, 1);
+/// @DnDArgument : "speed" "2"
+motion_add(image_angle, 2);
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1

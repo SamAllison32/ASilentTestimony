@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bud_1",
-  "eventList":[],
+  "%Name":"obj_rain",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bud_1",
+  "name":"obj_rain",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bud",
-    "path":"objects/obj_bud/obj_bud.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sprite45_2",
-    "path":"sprites/Sprite45_2/Sprite45_2.yy",
+    "name":"spr_temp_ball_blue",
+    "path":"sprites/spr_temp_ball_blue/spr_temp_ball_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
