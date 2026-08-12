@@ -33,3 +33,10 @@ moveY = 0;
 /// @DnDArgument : "size" "1"
 /// @DnDArgument : "color" "$FF0000FF"
 effect_create_below(0, x + 0, y + 0, 1, $FF0000FF & $ffffff);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 54E22E15
+/// @DnDArgument : "soundid" "snd_enemy_revived"
+/// @DnDSaveInfo : "soundid" "snd_enemy_revived"
+audio_play_sound(snd_enemy_revived, 0, 0, 1.0, undefined, 1.0);

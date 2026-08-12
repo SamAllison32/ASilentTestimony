@@ -46,6 +46,13 @@ var l4923B311_0 = instance_place(x + 0, y + 0, [obj_ball_yellow]);if ((l4923B31
 	/// @DnDArgument : "var" "yellow"
 	global.yellow += 1;}
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 7D0BD5E9
+/// @DnDArgument : "soundid" "snd_coin_grab"
+/// @DnDSaveInfo : "soundid" "snd_coin_grab"
+audio_play_sound(snd_coin_grab, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 733B70EF

@@ -3,7 +3,15 @@
 /// @DnDHash : 5F5DD69D
 /// @DnDArgument : "var" "hit_cooldown"
 /// @DnDArgument : "value" "false"
-if(hit_cooldown == false){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
+if(hit_cooldown == false){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3A312A04
+	/// @DnDParent : 5F5DD69D
+	/// @DnDArgument : "soundid" "snd_hurt"
+	/// @DnDSaveInfo : "soundid" "snd_hurt"
+	audio_play_sound(snd_hurt, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
 	/// @DnDHash : 060EA10F
 	/// @DnDParent : 5F5DD69D
