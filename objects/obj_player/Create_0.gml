@@ -140,3 +140,10 @@ cooldown = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "fall"
 fall = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 563F2530
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "rainy"
+rainy = false;

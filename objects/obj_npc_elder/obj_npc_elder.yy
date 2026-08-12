@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc2",
+  "%Name":"obj_npc_elder",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc2",
+  "name":"obj_npc_elder",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

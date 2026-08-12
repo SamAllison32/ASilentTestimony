@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"Object14",
+  "%Name":"obj_enemy_cyclops",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_shot_red","path":"objects/obj_shot_red/obj_shot_red.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object14",
+  "name":"obj_enemy_cyclops",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
