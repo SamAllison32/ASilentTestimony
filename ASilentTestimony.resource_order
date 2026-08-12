@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"SFX","order":15,"path":"folders/SFX.yy",},
     {"name":"dialogue","order":21,"path":"folders/Objects/dialogue.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
     {"name":"enemy_spr's","order":20,"path":"folders/Sprites/enemy_spr's.yy",},

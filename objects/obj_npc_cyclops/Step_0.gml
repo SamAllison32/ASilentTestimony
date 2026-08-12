@@ -41,22 +41,6 @@ var l7F504015_0 = instance_place(x + 0, y + 1, [collisionTilemap]);if ((l7F5040
 	/// @DnDArgument : "var" "moveY"
 	moveY = 0;}
 
-/// @DnDAction : YoYo Games.Collisions.If_Object_At
-/// @DnDVersion : 1.1
-/// @DnDHash : 51FF9064
-/// @DnDComment : Squid on a box. What he do$(13_10)$(13_10)$(13_10)Jerry on a floor. What he do
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "1"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_bud"
-/// @DnDSaveInfo : "object" "obj_bud"
-var l51FF9064_0 = instance_place(x + 0, y + 1, [obj_bud]);if ((l51FF9064_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 5AECA0B9
-	/// @DnDParent : 51FF9064
-	/// @DnDArgument : "var" "moveY"
-	moveY = 0;}
-
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
 /// @DnDHash : 0076A99E
