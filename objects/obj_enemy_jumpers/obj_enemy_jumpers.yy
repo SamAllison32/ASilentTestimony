@@ -22,7 +22,7 @@
     "name":"obj_enemy",
     "path":"objects/obj_enemy/obj_enemy.yy",
   },
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

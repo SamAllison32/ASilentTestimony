@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialogue_box",
+  "%Name":"start_button_obj_1",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":37,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dialogue_box",
+  "name":"start_button_obj_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"dialogue",
-    "path":"folders/Objects/dialogue.yy",
+    "name":"start page",
+    "path":"folders/start page.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_keyframe",
-    "path":"sprites/spr_keyframe/spr_keyframe.yy",
+    "name":"start_button",
+    "path":"sprites/start_button/start_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

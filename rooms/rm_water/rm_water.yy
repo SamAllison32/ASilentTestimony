@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_57CD9E49_1","path":"rooms/rm_water/rm_water.yy",},
     {"name":"inst_7A53BEF1","path":"rooms/rm_water/rm_water.yy",},
     {"name":"inst_813D8E8_1","path":"rooms/rm_water/rm_water.yy",},
     {"name":"inst_4A1C22D4_1","path":"rooms/rm_water/rm_water.yy",},
@@ -74,6 +73,7 @@
     {"name":"inst_C005160","path":"rooms/rm_water/rm_water.yy",},
     {"name":"inst_469EDF34","path":"rooms/rm_water/rm_water.yy",},
     {"name":"inst_BD3305C","path":"rooms/rm_water/rm_water.yy",},
+    {"name":"inst_57CD9E49_1","path":"rooms/rm_water/rm_water.yy",},
   ],
   "isDnd":false,
   "layers":[

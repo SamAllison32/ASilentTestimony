@@ -14,6 +14,7 @@ if(global.talk == true){	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 4551D495
+	/// @DnDComment : professor allowed in gml visual
 	/// @DnDParent : 3478F79D
 	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_text_ext_color(obj_dialogue_box.x+960, obj_dialogue_box.y+300, text[page], 150, 1736,c,c,c,c,1)"
 	/// @description Execute Code
