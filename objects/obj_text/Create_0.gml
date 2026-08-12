@@ -48,3 +48,10 @@ change = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "cooldown"
 cooldown = false;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 4C9F4685
+/// @DnDArgument : "value" "false"
+/// @DnDArgument : "var" "demo"
+global.demo = false;

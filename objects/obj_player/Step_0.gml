@@ -3,13 +3,13 @@
 /// @DnDHash : 429998EC
 /// @DnDArgument : "var" "global.lives"
 /// @DnDArgument : "op" "3"
-if(global.lives <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+if(global.lives <= 0){	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 73F612FF
+	/// @DnDHash : 31A6496D
 	/// @DnDParent : 429998EC
-	/// @DnDArgument : "room" "rm_gameover"
-	/// @DnDSaveInfo : "room" "rm_gameover"
-	room_goto(rm_gameover);}
+	/// @DnDArgument : "value" "true"
+	/// @DnDArgument : "var" "demo"
+	global.demo = true;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
