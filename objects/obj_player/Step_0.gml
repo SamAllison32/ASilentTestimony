@@ -1,5 +1,18 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 429998EC
+/// @DnDArgument : "var" "global.lives"
+/// @DnDArgument : "op" "3"
+if(global.lives <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 73F612FF
+	/// @DnDParent : 429998EC
+	/// @DnDArgument : "room" "rm_gameover"
+	/// @DnDSaveInfo : "room" "rm_gameover"
+	room_goto(rm_gameover);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 17F8789E
 /// @DnDArgument : "var" "global.talk"
 /// @DnDArgument : "value" "false"
@@ -31,21 +44,27 @@ if(global.talk == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var" "controls_input_turret"
 
 
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 57461BBA
+	/// @DnDHash : 3F7A4BE0
 	/// @DnDParent : 17F8789E
-	/// @DnDArgument : "expr" "controls_input_R - controls_input_L"
-	/// @DnDArgument : "var" "move_x"
-	move_x = controls_input_R - controls_input_L;
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 2BFC9192
-	/// @DnDParent : 17F8789E
-	/// @DnDArgument : "expr" "move_x * walk_speed"
-	/// @DnDArgument : "var" "move_x"
-	move_x = move_x * walk_speed;}
+	/// @DnDArgument : "var" "hit"
+	/// @DnDArgument : "value" "false"
+	if(hit == false){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 57461BBA
+		/// @DnDParent : 3F7A4BE0
+		/// @DnDArgument : "expr" "controls_input_R - controls_input_L"
+		/// @DnDArgument : "var" "move_x"
+		move_x = controls_input_R - controls_input_L;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2BFC9192
+		/// @DnDParent : 3F7A4BE0
+		/// @DnDArgument : "expr" "move_x * walk_speed"
+		/// @DnDArgument : "var" "move_x"
+		move_x = move_x * walk_speed;}}
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1

@@ -48,6 +48,6 @@ hit_cooldown = false;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3B3A5FCA
-/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "pacified"
-pacified = false;
+pacified = true;

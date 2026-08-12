@@ -23,7 +23,7 @@
   ],
   "name":"villageElder_spr",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"enemy_spr's",
     "path":"folders/Sprites/enemy_spr's.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":100,
     "yorigin":0,
   },
   "swatchColours":null,
